@@ -517,5 +517,5 @@ class KaleidoscopeShader extends ShaderCanvas {
 
 }
 
-let kaleidoscope = new KaleidoscopeShader(document.body, `https://i.imgur.com/a1II23N.jpg`);
+let kaleidoscope = new KaleidoscopeShader(document.body, 'https://i.imgur.com/8fHy6To.jpg');
 // kaleidoscope.start();
