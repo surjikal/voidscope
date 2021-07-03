@@ -1,2 +1,10 @@
-# voidscope
-🌀 Kaleidoscope Visualizer
+# 🌀 voidscope: Kaleidoscope Visualizer
+
+https://surjikal.github.io/voidscope
+
+---
+
+```
+npm install
+npm start
+```
