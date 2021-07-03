@@ -1,0 +1,45 @@
+{
+  "name": "voidscope",
+  "version": "1.0.0",
+  "description": "Kaleidoscope Visualizer",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "NODE_ENV=production parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surjikal/voidscope.git"
+  },
+  "author": "Nick Porter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surjikal/voidscope/issues"
+  },
+  "homepage": "https://github.com/surjikal/voidscope#readme",
+  "dependencies": {
+    "three": "^0.130.0",
+    "three-gif-loader": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.0.0-beta.3.1",
+    "@parcel/transformer-image": "^2.0.0-beta.3.1",
+    "@parcel/transformer-pug": "^2.0.0-beta.3.1",
+    "@types/node": "^16.0.0",
+    "@types/three": "^0.129.2",
+    "autoprefixer": "^10.2.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.2",
+    "only": "0.0.2",
+    "parcel": "^2.0.0-beta.3.1",
+    "pug": "^3.0.2",
+    "resize-observer": "^1.0.2",
+    "sharp": "^0.28.3",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "browserslist": [
+    "last 1 versions"
+  ]
+}

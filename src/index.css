@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  cursor: default;
+  outline-width: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #080808;
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+canvas {
+  transition: filter 3s ease, opacity 2s ease-in;
+  flex: 1 1 auto;
+  filter: blur(0px);
+}
+canvas.loading {
+  opacity: 0;
+}
+canvas:not(.loading) {
+  opacity: 1;
+}
