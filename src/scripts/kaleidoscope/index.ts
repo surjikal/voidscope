@@ -23,7 +23,7 @@ export class KaleidoscopeShader extends ShaderCanvas {
     uniforms.stretch = { type: "v2", value: new Vector2(0.0, 0.65) };
     uniforms.speed = {
       type: "v2",
-      value: new Vector2(-0.0004, 0.0003)
+      value: new Vector2(-0.0002, 0.00005)
     };
     return uniforms;
   }
@@ -105,7 +105,7 @@ export class KaleidoscopeShader extends ShaderCanvas {
 
   updateSpeedFromKeyboardState(state: KeyboardObserverState) {
     if (!this.running) return;
-    let increment = state.ShiftLeft ? 0.0004 : 0.0001;
+    let increment = state.ShiftLeft ? 0.0002 : 0.00005;
 
     let value = this.uniforms.speed.value.x;
     if (state.ArrowRight) value = value - increment;
