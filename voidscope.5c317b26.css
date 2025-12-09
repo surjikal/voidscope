@@ -1,0 +1,2 @@
+*{box-sizing:border-box;cursor:default;outline-width:0}html,body{background:#080808;height:100%;margin:0;padding:0;overflow:hidden}body{flex-direction:column;align-items:stretch;justify-items:stretch;display:flex}canvas{filter:blur();flex:auto;transition:filter 3s,opacity 2s ease-in}canvas.loading{opacity:0}canvas:not(.loading){opacity:1}
+/*# sourceMappingURL=voidscope.5c317b26.css.map */
